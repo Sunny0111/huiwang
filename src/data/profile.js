@@ -5,7 +5,7 @@ export const profile = {
   email: 'hw1361376751@gmail.com',
   github: 'https://github.com/wanghui',
   scholar: 'https://scholar.google.com/citations?user=0rNji2AAAAAJ&hl=de',
-  avatar: 'https://sunny0111.github.io/wanghui.github.io/img/profile.jpg',
+  avatar: `${import.meta.env.BASE_URL}images/profile.jpg`,
   intro:
     'I am currently pursuing a Bachelor degree in Software Engineering at the University of Duisburg-Essen, Germany since April 2022.',
   focus:

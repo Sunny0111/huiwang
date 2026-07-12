@@ -21,7 +21,7 @@ export const publications = [
     year: '2025',
     doi: '10.1145/3757594',
     doiUrl: 'https://dl.acm.org/doi/10.1145/3757594',
-    image: 'https://sunny0111.github.io/wanghui.github.io/img/agency-framework-diagram.png',
+    image: `${import.meta.env.BASE_URL}images/agency-framework-diagram.png`,
     imageAlt: 'Agency framework diagram',
     tags: ['Human-AI Co-creation', 'Agency', 'HCI', 'Scoping Review'],
   },
