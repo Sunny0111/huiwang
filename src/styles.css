@@ -481,11 +481,12 @@ p {
 }
 
 .timeline-entry a {
+  color: var(--accent);
   font-weight: 800;
 }
 
 .timeline-entry strong {
-  color: var(--ink);
+  color: var(--accent);
   font-weight: 850;
 }
 
