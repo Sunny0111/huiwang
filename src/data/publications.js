@@ -8,7 +8,7 @@ export const publications = [
     doi: '10.18653/v1/2026.bionlp-1.73',
     doiUrl: 'https://doi.org/10.18653/v1/2026.bionlp-1.73',
     paperUrl: 'https://aclanthology.org/2026.bionlp-1.73/',
-    image: '/images/crossddi-framework.png',
+    image: `${import.meta.env.BASE_URL}images/crossddi-framework.png`,
     imageAlt: 'CrossDDI framework diagram',
     tags: ['NLP', 'BioNLP', 'Drug-Drug Interaction', 'Evidence-Grounded Verification'],
   },
